@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>ChromaBroadcast</RootNamespace>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <Authors>Chroma Control Contributors</Authors>
+    <Company>Chroma Control Contributors</Company>
+    <Product>Chroma Control</Product>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/ChromaControl/ChromaBroadcastSDK.NET</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/ChromaControl/ChromaBroadcastSDK.NET/releases</PackageReleaseNotes>
+    <Description>A .NET wrapper for the Razer Chroma Broadcast SDK</Description>
+    <Copyright>© Chroma Control Contibutors. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/ChromaControl</PackageProjectUrl>
+    <PackageTags>Razer;Chroma;Broadcast;SDK;ChromaBroadcastSDK;ChromaBroadcastSDK.NET</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>nuget.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\nuget.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
