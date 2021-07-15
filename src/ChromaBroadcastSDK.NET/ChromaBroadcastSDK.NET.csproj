@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net45</TargetFrameworks>
     <RootNamespace>ChromaBroadcast</RootNamespace>
+    <PackageId>ChromaBroadcastSDK.NET</PackageId>
     <Platforms>AnyCPU;x86;x64</Platforms>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
@@ -22,9 +23,9 @@
     <PackageIcon>nuget.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
