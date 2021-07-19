@@ -5,9 +5,7 @@
     <RootNamespace>ChromaBroadcast</RootNamespace>
     <PackageId>ChromaBroadcastSDK.NET</PackageId>
     <Platforms>AnyCPU;x86;x64</Platforms>
-    <ApplicationIcon />
     <OutputType>Library</OutputType>
-    <StartupObject />
     <Authors>Chroma Control Contributors</Authors>
     <Company>Chroma Control Contributors</Company>
     <Product>Chroma Control</Product>
@@ -21,11 +19,10 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>nuget.png</PackageIcon>
-    <PackageIconUrl />
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
-    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+    <Version>1.0.4</Version>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
