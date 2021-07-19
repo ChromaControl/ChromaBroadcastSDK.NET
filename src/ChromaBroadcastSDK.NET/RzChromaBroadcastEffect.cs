@@ -14,26 +14,31 @@ namespace ChromaBroadcast
         /// <summary>
         /// ChromaLink 1
         /// </summary>
-        public Color ChromaLink1;
+        public Color ChromaLink1 { get; internal set; }
 
         /// <summary>
         /// ChromaLink 2
         /// </summary>
-        public Color ChromaLink2;
+        public Color ChromaLink2 { get; internal set; }
 
         /// <summary>
         /// ChromaLink 3
         /// </summary>
-        public Color ChromaLink3;
+        public Color ChromaLink3 { get; internal set; }
 
         /// <summary>
         /// ChromaLink 4
         /// </summary>
-        public Color ChromaLink4;
+        public Color ChromaLink4 { get; internal set; }
 
         /// <summary>
         /// ChromaLink 5
         /// </summary>
-        public Color ChromaLink5;
+        public Color ChromaLink5 { get; internal set; }
+
+        /// <summary>
+        /// Reserved
+        /// </summary>
+        public uint Reserved { get; internal set; }
     }
 }

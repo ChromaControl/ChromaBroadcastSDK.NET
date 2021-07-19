@@ -7,7 +7,7 @@ namespace ChromaBroadcast
     /// <summary>
     /// Return result
     /// </summary>
-    public enum RzResult : long
+    public enum RzResult
     {
         /// <summary>
         /// Invalid
@@ -112,6 +112,6 @@ namespace ChromaBroadcast
         /// <summary>
         /// General failure
         /// </summary>
-        Failed = 2147500037
+        Failed = 2147483647
     }
 }

@@ -66,7 +66,7 @@ namespace ChromaBroadcast
         /// <summary>
         /// Chroma Broadcast Callback function
         /// </summary>
-        private static RegisterEventNotificationCallback Callback { get; set; }
+        private static RegisterEventNotificationCallback RegisterEventNotificationCallbackState { get; set; }
 
         /// <summary>
         /// Register Chroma Broadcast API event notification (32 bit)
@@ -135,9 +135,9 @@ namespace ChromaBroadcast
         /// <returns>Razer result</returns>
         public static RzResult RegisterEventNotification(Func<RzChromaBroadcastType, RzChromaBroadcastStatus?, RzChromaBroadcastEffect?, RzResult> lpFunc)
         {
-            if (Callback == null)
+            if (RegisterEventNotificationCallbackState == null)
             {
-                Callback = new RegisterEventNotificationCallback((type, pData) =>
+                RegisterEventNotificationCallbackState = new RegisterEventNotificationCallback((type, pData) =>
                 {
                     if (pData != IntPtr.Zero)
                     {
@@ -171,7 +171,7 @@ namespace ChromaBroadcast
                 });
             }
 
-            return Is32Bit ? RegisterEventNotification32(Callback) : RegisterEventNotification64(Callback);
+            return Is32Bit ? RegisterEventNotification32(RegisterEventNotificationCallbackState) : RegisterEventNotification64(RegisterEventNotificationCallbackState);
         }
 
         /// <summary>
